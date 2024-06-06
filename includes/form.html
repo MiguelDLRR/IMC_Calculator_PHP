@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #333;
+            color: #fff;
+        }
+
+        form{
+
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!--form.html: contiene un formulario de tipo POST con los siguientes campos de texto: 
+name (nombre del usuario), year (año de nacimiento del usuario), weight (peso del usuario, en kilos), height (altura del usuario, en metros). 
+Tendrá un botón que, al pulsarlo, nos llevara a la página imc_page.php.
+-->
+
+    <form method="post" action="imc_page.php">
+        Name:<input type="text" name="nombre" required /><br/>
+        Year:<input type="text" name="year" required/><br/>
+        Weight:<input type="text" name="peso" placeholder="kg" required/><br/>
+        Height:<input type="text" name="altura" placeholder="m" required/><br/>
+        <input type="submit" value="Calcular IMC">
+    
+    
+    
+    
+    </form>   
+</body>
+</html>
