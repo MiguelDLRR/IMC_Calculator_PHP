@@ -1,6 +1,6 @@
 <?php
 //mayor_edad: recibe como parámetro un número que será el valor que ha introducido el usuario en el campo “year” del formulario.
-// Ésta función calculará la edad del usuario, y la devolverá. Puedes usar la función “date(‘Y’)” para obtener el año actual.
+// Ésta función calculará la edad del usuario, y la devolverá. 
 
 //calculo_imc: recibe como parámetros el peso y la altura del usuario (introducidos en el formulario) y calculará el IMC (peso/altura).
 // Devolverá este valor redondeado a dos decimales (función sprintf).
